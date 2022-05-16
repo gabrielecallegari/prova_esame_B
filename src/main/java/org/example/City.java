@@ -12,13 +12,6 @@ public class City {
         this.name = name;
         this.temp = temp;
     }
-    @Override
-    public String toString(){
-        return "\"Cities\":{\n"+
-                "\"id\" : \""+id+"\"\n"+
-                "\"name\" : \""+name+"\n"+
-                "\"temp\" : "+temp+"}";
-    }
 
 
 }
